@@ -2,6 +2,7 @@
   "name": "grunt-json-server",
   "description": "Give it a JSON or JS seed file and it will serve it through REST routes.",
   "version": "0.1.1",
+  "private": true
   "homepage": "https://github.com/tfiwm/grunt-json-server",
   "author": {
     "name": "Mitko Tschimev",
@@ -40,7 +41,7 @@
     "routes"
   ],
   "dependencies": {
-      "json-server": "~0.4.1",
+      "json-server": "git+ssh://git@github.com:beyondeye/json-server.git#v0.7.3",
       "superagent": "^0.18.2"
   }
 }
